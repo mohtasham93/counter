@@ -1,5 +1,60 @@
-form{
+/* General Page Styling */
+body {
+  background-color: #f0f2f5;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Container Styling */
+div {
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Button Styling */
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+
+/* Specific Variant Styles (match your variant names) */
+button[variant="outline-primary"] {
+  background-color: white;
+  color: #007bff;
+  border-color: #007bff;
+}
+button[variant="outline-primary"]:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+button[variant="outline-secondary"] {
+  background-color: white;
+  color: #6c757d;
+  border-color: #6c757d;
+}
+button[variant="outline-secondary"]:hover {
+  background-color: #6c757d;
+  color: white;
+}
+
+/* Counter Text */
+p {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
 }
